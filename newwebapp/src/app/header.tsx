@@ -11,11 +11,11 @@ import { Menu } from "lucide-react"
 
 function Header(){
     return ( 
-    <header className="flex justify-between items-center p-2" >
-        <h1 className=" text-4xl font-bold font-serif">S.</h1>
+    <header className="flex justify-between items-center p-2 bg-transparent" >
+        <h1 className=" text-1xl font-bold font-ARIAL text-slate-400">PORTFOLIO WEBSITE</h1>
     <nav>
     <Sheet>
-  <SheetTrigger className="md:hidden"> <Menu />
+  <SheetTrigger className="md:hidden"> <Menu className="text-white" />
   </SheetTrigger>
   <SheetContent>
       <SheetTitle className="text-center gap-y-4">Menu</SheetTitle>
