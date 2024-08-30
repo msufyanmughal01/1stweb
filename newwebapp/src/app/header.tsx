@@ -15,7 +15,7 @@ function Header(){
         <h1 className=" text-1xl font-bold font-ARIAL text-slate-400">PORTFOLIO WEBSITE</h1>
     <nav>
     <Sheet>
-  <SheetTrigger className="md:hidden"> <Menu className="text-white" />
+  <SheetTrigger className="md:hidden"> <Menu className="text-slate-400" />
   </SheetTrigger>
   <SheetContent>
       <SheetTitle className="text-center gap-y-4">Menu</SheetTitle>
