@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Sheet } from "lucide-react";
 import Hero from "./hero";
+import Afterhero from "./afterhero";
 export default function Home() {
   return (
   <div className="h-full w-full" >
@@ -8,9 +9,11 @@ export default function Home() {
       <Hero/>
     </div>
     <div>
-
+      <Afterhero/>
     </div>
-      </div>
+    </div>
+
+
 
   )
 }
