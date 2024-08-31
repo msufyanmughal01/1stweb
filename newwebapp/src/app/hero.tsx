@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
 function Hero(){
     return (
-      <section id='hero'>
+      <section className='h-full' id='hero'>
       <div className="flex justify-between items-center p-2 ">
         <h1 className="text-1xl font-semibold font-mono md:text-3xl text-slate-400 ">HI THERE,
           <br />
