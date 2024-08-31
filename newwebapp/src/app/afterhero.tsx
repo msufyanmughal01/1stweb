@@ -1,21 +1,38 @@
+"use client";
+import { TypeAnimation } from "react-type-animation";
+
 export default function Afterhero(){
     return (
-        <div>
-             <div className="h-10 items-center">
-             <h1 className="text-center text-2xl text-slate-400 font-semibold font-mono">SKILL AND ABILITIES</h1>
-             </div>
-             <div className="bg-white h-96 flex justify-center items-center">
-                <div className="flex justify-between h-80 w-4/5 bg-slate-500 ">
-                <div className="w-16"><img src="/html.png" alt="" /></div>
-                <div className=""><img src="/javascript.png" alt="" /></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
+        <section id="about">
+             <div className="flex h-96 w-full mt-20">
+                <div className="bg-white">
+                    <img src="wordpress_logo" alt="" />
+                </div>
+                <div className="items-start ">
+                <h1 className=" text-3xl text-slate-400 font-semibold font-mono">ABOUT <span className="text-orange-500">ME </span>
+                <br />
+                MY NAME IS SUFYAN MUGHAL 
+                <br />
+                <TypeAnimation className='text-orange-500 text-base'
+      sequence={[
+        'IAM A FRONTEND DEVELOPER ',
+        1500,
+        'IAM A WORDPRESS/SHOPIFY WEBDEVELOPER  ',
+        1500,
+        'IAM A DIGITALMARKETER',
+        1500,
+      ]}
+      wrapper="span"
+      speed={60}
+      style={{ fontSize: '3', display: 'inline-block' }}
+      repeat={Infinity}
+    /> </h1>
+                <p className="text-slate-400">
+                    AND IAM BASED IN KARACHI PAKISTAN IAM PASSINATE ABOUT TO CREATE A GOOD LOOKING AND RESPONSIVE WEBAPPS 
+                    GET FREE CONSULTANSY NOW!
+                </p>
                 </div>
              </div>
-
-        </div>
+             </section>
     )
 }

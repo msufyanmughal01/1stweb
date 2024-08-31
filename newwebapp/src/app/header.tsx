@@ -39,7 +39,7 @@ function Header(){
             </Link>
             </li>
             <li className="px-2 py-1.5 text-BLACK bg-slate-400 rounded-md text-1xl hover:bg-slate-300"> 
-                <Link href ="/about">About</Link></li>
+                <Link href ="#about">About</Link></li>
             <li className="px-2 py-1.5 text-BLACK bg-slate-400 rounded-md text-1xl p-2 hover:bg-slate-300 ">
                 Contact 
                 </li>
