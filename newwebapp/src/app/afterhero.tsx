@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Afterhero(){
     return (
-        <section className="h-screen w-full">
+        <section className="h-screen w-full ">
             <div> <img className="rounded-3xl md:hidden " src="capo.jpeg" alt="" />
             <div className="md:hidden">
                 <h1 className="text-justify-center text-3xl text-slate-400 text-center font-semibold font-mono">ABOUT <span className="text-orange-500">ME </span>
