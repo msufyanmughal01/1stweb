@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { MessageCircle, Sheet } from "lucide-react";
 import Hero from "./hero";
 import Afterhero from "./afterhero";
 import Service from "./service";
