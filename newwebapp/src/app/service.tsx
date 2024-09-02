@@ -19,18 +19,18 @@ export default function Service(){
     <CarouselItem><div className=" hover:animate-pulse animate-once h-80 w-60 bg-slate-400 rounded-md">
                     <h1 className="text-orange-500 text-2xl font-semibold font-mono text-center">FRONTEND DEVELOPMENT</h1> 
                     <br />
-                    <p className="text-sm text-center">Welcome to the world Frontend Development—where creativity meets technology to craft stunning, and responsive user experiences. As a frontend developer, Iam in transforming design concepts into functional, visually captivating websites and applications that engage and delight users.</p> 
+                    <p className="text-sm text-center">Welcome to the world Frontend Development—where creativity meets technology to craft stunning&#44; and responsive user experiences&#46; As a frontend developer&#44; Iam in transforming design concepts into functional&#44; visually captivating websites and applications that engage and delight users&#46;</p> 
                 </div></CarouselItem>
     <CarouselItem><div className="hover:animate-pulse animate-once h-80 w-60 bg-slate-400 rounded-md">
                     <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold ">DIGITAL <br /> MARKETING</h1>
                     <br />
-                    <p className="text-sm text-center">"In today's digital landscape, effective marketing is crucial for standing out. As a digital marketing professional, I leverage online platforms to boost brand awareness, engage audiences, and deliver measurable results through strategic and data-driven campaigns.</p>
+                    <p className="text-sm text-center">"In today's digital landscape&#44; effective marketing is crucial for standing out&#46; As a digital marketing professional&#44; I leverage online platforms to boost brand awareness&#44; engage audiences&#44; and deliver measurable results through strategic and data-driven campaigns&#46;</p>
                 </div></CarouselItem>
     <CarouselItem><div className="hover:animate-pulse animate-once h-80 w-60 bg-slate-400 rounded-md md:mr-7">
                 <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold md:mr-3">WORDPRESS/SHOPIFY DEVELOPMENT </h1>
                 <br />
-                <p className="text-sm text-center">For a dynamic online presence, WordPress and Shopify are top choices.
-                    <br /> WordPress excels in versatility and customization, ideal for diverse websites, while Shopify specializes in streamlined e-commerce solutions, perfect for managing online stores efficiently.</p>
+                <p className="text-sm text-center">For a dynamic online presence&#44; WordPress and Shopify are top choices&#46;
+                    <br /> WordPress excels in versatility and customization&#44; ideal for diverse websites&#44; while Shopify specializes in streamlined e-commerce solutions&#44; perfect for managing online stores efficiently&#46;</p>
                 </div></CarouselItem>
 
   </CarouselContent>
@@ -41,18 +41,18 @@ export default function Service(){
                 <div className="hover:animate-pulse animate-once h-70 w-60 bg-slate-400 rounded-md md:ml-3">
                     <h1 className="text-orange-500 text-2xl font-semibold font-mono text-center">FRONTEND DEVELOPMENT</h1> 
                     <br />
-                    <p className="text-sm text-center">Welcome to the world Frontend Development—where creativity meets technology to craft stunning, and responsive user experiences. As a frontend developer, Iam in transforming design concepts into functional, visually captivating websites and applications that engage and delight users.</p> 
+                    <p className="text-sm text-center">Welcome to the world Frontend Development—where creativity meets technology to craft stunning&#44; and responsive user experiences&#46; As a frontend developer&#44; Iam in transforming design concepts into functional&#44; visually captivating websites and applications that engage and delight users&#46;</p> 
                 </div>
                 <div className="hover:animate-pulse animate-once h-76 w-60 bg-slate-400 rounded-md">
                     <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold ">DIGITAL <br /> MARKETING</h1>
                     <br />
-                    <p className="text-sm text-center">"In today's digital landscape, effective marketing is crucial for standing out. As a digital marketing professional, I leverage online platforms to boost brand awareness, engage audiences, and deliver measurable results through strategic and data-driven campaigns.</p>
+                    <p className="text-sm text-center">"In today's digital landscape&#44; effective marketing is crucial for standing out&#46; As a digital marketing professional&#44; I leverage online platforms to boost brand awareness&#44; engage audiences&#44; and deliver measurable results through strategic and data-driven campaigns&#46;</p>
                 </div>
                 <div className="hover:animate-pulse animate-once h-76 w-60 bg-slate-400 rounded-md md:mr-7">
                 <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold md:mr-3">WORDPRESS/SHOPIFY DEVELOPMENT </h1>
                 <br />
-                <p className="text-sm text-center">For a dynamic online presence, WordPress and Shopify are top choices.
-                    <br /> WordPress excels in versatility and customization, ideal for diverse websites, while Shopify specializes in streamlined e-commerce solutions, perfect for managing online stores efficiently.</p>
+                <p className="text-sm text-center">For a dynamic online presence&#44; WordPress and Shopify are top choices&#46;
+                    <br /> WordPress excels in versatility and customization&#44; ideal for diverse websites&#44; while Shopify specializes in streamlined e-commerce solutions&#44; perfect for managing online stores efficiently&#46;</p>
                 </div>
 
             </div>
