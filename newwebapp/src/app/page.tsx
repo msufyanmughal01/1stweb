@@ -1,7 +1,7 @@
 import Hero from "./hero";
 import Afterhero from "./afterhero";
-import Service from "./service";
 import Footer from "./footer";
+import Service from "./service";
 export default function Home() {
   return (
   <body>
