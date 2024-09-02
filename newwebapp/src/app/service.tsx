@@ -8,11 +8,11 @@ import {
 export default function Service(){
     return (
         <section className="h-screen w-full" id="services">
-            <div className="mt-44"> 
+            <div> 
                 <br />
             </div>
             <div >
-                <h1 className="text-center text-2xl font-semibold text-slate-400 mt-32 mb-28"> SERVICES </h1>
+                <h1 className="text-center text-2xl font-semibold text-slate-400 mt-11 mb-28"> SERVICES </h1>
             </div>
             <Carousel className="ml-16  w-60 md:hidden">
   <CarouselContent>
@@ -32,6 +32,7 @@ export default function Service(){
                 <p className="text-sm text-center">For a dynamic online presence, WordPress and Shopify are top choices.
                     <br /> WordPress excels in versatility and customization, ideal for diverse websites, while Shopify specializes in streamlined e-commerce solutions, perfect for managing online stores efficiently.</p>
                 </div></CarouselItem>
+                
   </CarouselContent>
   <CarouselPrevious />
   <CarouselNext />
