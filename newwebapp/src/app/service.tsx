@@ -24,7 +24,7 @@ export default function Service(){
     <CarouselItem><div className="hover:animate-pulse animate-once h-80 w-60 bg-slate-400 rounded-md">
                     <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold ">DIGITAL <br /> MARKETING</h1>
                     <br />
-                    <p className="text-sm text-center">"In today's digital landscape&#44; effective marketing is crucial for standing out&#46; As a digital marketing professional&#44; I leverage online platforms to boost brand awareness&#44; engage audiences&#44; and deliver measurable results through strategic and data-driven campaigns&#46;</p>
+                    <p className="text-sm text-center">In today&#39;s digital landscape&#44; effective marketing is crucial for standing out&#46; As a digital marketing professional&#44; I leverage online platforms to boost brand awareness&#44; engage audiences&#44; and deliver measurable results through strategic and data-driven campaigns&#46;</p>
                 </div></CarouselItem>
     <CarouselItem><div className="hover:animate-pulse animate-once h-80 w-60 bg-slate-400 rounded-md md:mr-7">
                 <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold md:mr-3">WORDPRESS/SHOPIFY DEVELOPMENT </h1>
@@ -46,7 +46,7 @@ export default function Service(){
                 <div className="hover:animate-pulse animate-once h-76 w-60 bg-slate-400 rounded-md">
                     <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold ">DIGITAL <br /> MARKETING</h1>
                     <br />
-                    <p className="text-sm text-center">"In today's digital landscape&#44; effective marketing is crucial for standing out&#46; As a digital marketing professional&#44; I leverage online platforms to boost brand awareness&#44; engage audiences&#44; and deliver measurable results through strategic and data-driven campaigns&#46;</p>
+                    <p className="text-sm text-center">In today&#39;s digital landscape&#44; effective marketing is crucial for standing out&#46; As a digital marketing professional&#44; I leverage online platforms to boost brand awareness&#44; engage audiences&#44; and deliver measurable results through strategic and data-driven campaigns&#46;</p>
                 </div>
                 <div className="hover:animate-pulse animate-once h-76 w-60 bg-slate-400 rounded-md md:mr-7">
                 <h1 className="text-orange-500 text-2xl text-center font-mono font-semibold md:mr-3">WORDPRESS/SHOPIFY DEVELOPMENT </h1>
