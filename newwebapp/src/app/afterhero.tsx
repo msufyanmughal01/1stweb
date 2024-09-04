@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function Afterhero(){
     return (
         <section className="h-screen w-full ">
-          <div className="mt-20">
+          <div className="">
             <br />
           </div>
-            <div> <Image className="rounded-3xl ml-1 md:hidden" src="/capo.jpeg" width = {380} height ={150}alt=""/> 
+            <div className="flex justify-center"> <Image className=" rounded-3xl  md:hidden" src="/capo.jpeg" width = {380} height ={150}alt=""/> </div>
             <div className="md:hidden">
                 <h1 className="text-justify-center text-3xl text-slate-400 text-center font-semibold font-mono">ABOUT <span className="text-orange-500">ME </span>
                 <br />
@@ -34,7 +34,6 @@ export default function Afterhero(){
                 <div>
                 </div>
                 </div>
-            </div>
             {/* md k bad */}
             <div>
               <br />
@@ -67,7 +66,7 @@ export default function Afterhero(){
                     GET FREE CONSULTANSY NOW!
                 </p>
                 </div>
-             </div>
+                </div>
              </section>
     )
 }

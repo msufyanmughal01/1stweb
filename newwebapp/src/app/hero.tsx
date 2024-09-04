@@ -5,9 +5,11 @@ import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
 function Hero(){
     return (
-      <section className='h-screen w-full mt-10 bg-' id='hero'>
+      <section className='h-screen mt-10 bg-' id='hero'>
         <div className=" md:hidden ">
-        <Image className=" rounded-2xl" src="/cap.jpeg" width = {400} height ={300}alt=""/> 
+          <div className='flex justify-center'>
+        <Image className=" rounded-2xl" src="/cap.jpeg" width = {500} height ={300}alt=""/> 
+        </div>
         <div>
           <br />
         </div>
