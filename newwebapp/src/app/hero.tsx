@@ -7,12 +7,6 @@ function Hero(){
     return (
       <section className='h-screen mt-10 bg-' id='hero'>
         <div className=" md:hidden ">
-          <div className='flex justify-center'>
-        <Image className=" rounded-2xl" src="/cap.jpeg" width = {500} height ={300}alt=""/> 
-        </div>
-        <div>
-          <br />
-        </div>
         <h1 className="text-3xl font-semibold font-mono md:text-3xl text-slate-400 ">HI THERE,
           <br />
           <br />
@@ -48,6 +42,12 @@ function Hero(){
       </li>
     </ul>
     </h1>
+    <div>
+          <br />
+        </div>
+    <div className='flex justify-center'>
+        <Image className=" rounded-b-full" src="/capoo.png" width = {500} height ={300}alt=""/> 
+        </div>
     </div>
 
 
@@ -75,19 +75,19 @@ function Hero(){
     <ul className='flex gap-x-8 mt-3'>
       <li>
         <Link href="https://www.instagram.com/m_sufyan_87/" target='/blank'>
-        <Instagram className='hover:text-pink-500' />
+        <Instagram size={40} className='hover:text-pink-500' />
         </Link>
       </li>
       <li>
-        <Link href ="https://www.linkedin.com/in/sufyan-mughal-674632299/" target='/blank'><Linkedin className='hover:text-blue-500' /></Link>
+        <Link href ="https://www.linkedin.com/in/sufyan-mughal-674632299/" target='/blank'><Linkedin size={40} className='hover:text-blue-500' /></Link>
       </li>
       <li>
-        <Link href = "mailto:mskhalid703@gmail.com" target='/blank'><Mail className='hover:text-red-500'/></Link>
+        <Link href = "mailto:mskhalid703@gmail.com" target='/blank'><Mail size={40} className='hover:text-red-500'/></Link>
       </li>
     </ul>
     </h1>
-          <div className="bg-slate-300 rounded-s-full">
-            <Image className='rounded-s-full' src='/cap.jpeg' width={400} height={150} alt=''/>
+          <div className="rounded-full">
+            <Image className='rounded-full' src='/capoo.png' width={400} height={150} alt=''/>
           </div>
       </div>
       </section>

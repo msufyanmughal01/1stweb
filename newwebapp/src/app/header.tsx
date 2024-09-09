@@ -26,10 +26,13 @@ function Header(){
             </li>
             <li className="p-2 rounded-md mb-1 bg-slate-400 hover:bg-slate-300" > 
                 <Link href ="#about">About</Link></li>
+                <li className="p-2 rounded-md mb-1 bg-slate-400 hover:bg-slate-300" >
+                <Link href="#skill" >Skills</Link>
+                </li>
             <li className="p-2 rounded-md mb-1 bg-slate-400 hover:bg-slate-300" >
                 <Link href="#services" >Services</Link>
-                 
                 </li>
+                
         </ul>
   </SheetContent>
 </Sheet>
@@ -41,9 +44,13 @@ function Header(){
             </li>
             <li className="px-2 py-1.5 text-BLACK bg-slate-400 rounded-md text-1xl hover:bg-slate-300"> 
                 <Link href ="#about">About</Link></li>
+                <li className="px-2 py-1.5 text-BLACK bg-slate-400 rounded-md text-1xl p-2 hover:bg-slate-300 ">
+                <Link href="#skill">Skills</Link>
+                </li>
             <li className="px-2 py-1.5 text-BLACK bg-slate-400 rounded-md text-1xl p-2 hover:bg-slate-300 ">
                 <Link href="#service">Services</Link>
                 </li>
+               
         </ul>
 
     </nav>
