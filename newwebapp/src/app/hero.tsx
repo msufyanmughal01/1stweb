@@ -5,9 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
 function Hero(){
     return (
-      <section className='h-screen mt-10 bg-' id='hero'>
+      <section className='h-screen mt-10 hello' id='hero'>
         <div className=" md:hidden ">
-        <h1 className="text-3xl font-semibold font-mono md:text-3xl text-slate-400 ">HI THERE,
+        <h1 className="text-3xl font-semibold font-mono md:text-3xl text-white ">HI THERE,
           <br />
           <br />
           ITS ME SUFYAN MUGHAL
@@ -52,7 +52,7 @@ function Hero(){
 
 
       <div className="hidden md:flex justify-between items-center p-2 ">
-        <h1 className="text-1xl font-semibold font-mono md:text-3xl text-slate-400 ">HI THERE,
+        <h1 className="text-1xl font-semibold font-mono md:text-3xl text-white ">HI THERE,
           <br />
           ITS ME SUFYAN MUGHAL
           <br />

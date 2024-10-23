@@ -1,9 +1,9 @@
  import Image from "next/image"
  export default function Skill (){
     return (
-        <section className="h-max w-full ">
+        <section className="h-max w-full hello ">
             <div>
-                <h1 className="text-center text-3xl font-mono font-semibold text-slate-400">SKILLS </h1>
+                <h1 className="text-center text-3xl font-mono font-semibold text-white">SKILLS </h1>
             </div>
             <div>
                 <br />

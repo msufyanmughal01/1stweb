@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+.hello{
+    @apply px-2 max-w-screen-2xl mx-auto 
+}
 body {
     background:rgb(10, 10, 37)
 }

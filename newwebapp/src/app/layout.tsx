@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <title>Sufyan Mughal Portfolio</title>
+      <title>Sufyan's Mughal Portfolio</title>
       <body className={inter.className}>
         <Header />
         {children}
